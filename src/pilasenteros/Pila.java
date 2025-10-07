@@ -8,6 +8,13 @@ public class Pila {
         pila = new Stack<Integer>();
     }
 
+    public Stack<Integer> getPila() {
+        return pila;
+    }
+    public void setPila(Stack<Integer> pila) {
+        this.pila = pila;
+    }
+
     public void push(Integer dato){
         pila.push(dato);
     }
